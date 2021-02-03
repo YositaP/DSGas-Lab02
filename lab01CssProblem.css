@@ -11,8 +11,9 @@ h1 {
 }
 
 /*Make all <li> elements in the shade of hexadecimal blue*/
-
-
+ul{
+    color: #99f7fd;
+}
 /*Paragraph background to orange*/
 p{
     background-color: orange;
@@ -20,7 +21,7 @@ p{
 
 /*Make all <h3> have 5px red solid border*/
 h3{
-    border-style: solid; border-width: 5px; border-color: red;
+    border: solid 5px red;
 }
 
 /*Give everything with <abbr> bold and underlined*/
@@ -34,10 +35,16 @@ abbr {
 }
 
 /*Give <p> in id "zen-benefits" pink background*/
-#zen-benefits {
+#zen-benefits > p{
     background-color: pink;
 }
 
 /*Make <li> adjacent to <h2> red background*/
+h2, h2 ~ ul{
+    background-color: red;
+}
 
 /*Give <em> inside <p> red and bold*/
+p em{
+    color: red; border-style: bold;
+}
