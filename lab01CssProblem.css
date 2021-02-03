@@ -34,6 +34,9 @@ abbr {
 }
 
 /*Give <p> in id "zen-benefits" pink background*/
+#zen-benefits {
+    background-color: pink;
+}
 
 /*Make <li> adjacent to <h2> red background*/
 
